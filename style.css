@@ -45,3 +45,79 @@ body {
     font-size: 2rem;
     font-family: 'Bebas Neue', sans-serif;
 }
+
+.button-area {
+    
+    height: 14rem;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+    
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    width: 15%;
+    height: 100%;
+    
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    width: 15%;
+    height: 100%;
+}
+
+.col-3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    width: 15%;
+    height: 100%;
+}
+
+.col-4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    width: 20%;
+    height: 100%;
+    
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 2rem;
+    cursor: pointer;
+    background: #c3c8d3;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #ffffff;
+}
+
+.operator {
+    background: #e09145;
+    transition: background-color 0.3s ease;
+}
+
+.ac {
+    background: #fb6d6c;
+}
+
+.operator:hover {
+    background: #fcd9b8;
+}
+
+.equals {
+    background: #bfb0a0;
+}
